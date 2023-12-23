@@ -5,7 +5,7 @@
 // 特定の範囲で乱数を発生させる関数
 int intrand(int min, int max)
 {
-    return rand() % max - min + 1;
+    return rand() % max + min;
 }
 
 // ゲーム
